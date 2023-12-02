@@ -26,49 +26,27 @@ titles:
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+![SPADE DEMO](https://raw.githubusercontent.com/tamagusko/spade/main/screenshots/spade_app.png)
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+Our SPADE project is all about helping cities stay ahead of flooding. We analyze elevation models, road data, and satellite images to figure out where water might flow and which areas are most at risk. This information can then be used to improve urban design and prevent flooding. It's all about using smart data to keep cities safe and dry!
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+## Concept
+
+The project aims to solve the problem of flooding in smart cities. The team uses location-based data, the Digital Terrain Model (DTM), and satellite images to predict water flow paths and areas vulnerable to floods. This information creates a map that displays flooded areas and safe routes for rescue efforts. The map has a scroll bar that shows how flooding changes with different rainfall amounts. The team creates a point cloud of city elevations from the Digital Terrain Model and calculates water flow and waterways using algorithms. A satellite image segmentation algorithm estimates the permeability of each region and identifies existing water courses for drainage. The team then uses routing algorithms to avoid flood-prone areas and updates the city's situation and available roads based on the amount of rain. The project results in a real-time system that provides information about flooded areas and safe routes during a flood event, accessible through a user-friendly interface, like a web-based map, updated in real-time with new information.
+
+### Goals
+
+1. Attribute drainage coefficients to areas through satellite images: Applying a neural network, be capable of classifying the surface cover of an area and estimate the volume of rain that it can absorb.
+2. Define possible flood areas and water flow paths: Through Digital Elevation Model (DEM) files, define basins, and higher and lower points of the city, as long as the path of rainwater from the higher to the lower ground.
+3. Identify the impact on roads and general transport infrastructure: Goals 1 and 2 will provide the necessary data for estimating which areas are in danger of flood and which roads can become unable to drive. This knowledge can be used to design alternative rescue routes together with adjustments in the existing transport.
 
 ## Features
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- Areas analyzed classified into three classes: City (black), Vegetation (green), Water (blue).
+- Real-time flood prediction using location-based data and weather information
+- Safe route planning for rescue efforts during floods
+- User-friendly map interface displaying flooded areas and safe routes
 
-## Skins
+## MVP
 
-TeXt has 6 built-in skins, you can also set up your own skin.
-
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+[spade-hackathon.streamlit.app](https://spade-hackathon.streamlit.app/)
