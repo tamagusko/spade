@@ -31,4 +31,4 @@ Description Juliana. PhD candidate in transport systems at the University of Coi
     <a href="https://www.linkedin.com/in/tamagusko/" target="_blank">Tiago Tamagusko (CTO)</a>
 </p>
  
-PhD candidate in transport systems at the University of Coimbra, Portugal. Research applications of artificial intelligence (AI) in transport and mobility of the future. Especially interested in machine learning (ML) algorithms, computer vision and intelligent transportation systems (ITS).
+PhD candidate in transport systems at the University of Coimbra, Portugal. Research applications of artificial intelligence (AI) in transport and mobility of the future. Especially interested in machine learning (ML) algorithms, computer vision, and intelligent transportation systems (ITS).
