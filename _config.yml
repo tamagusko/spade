@@ -221,4 +221,3 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
-  - jekyll-target-blank

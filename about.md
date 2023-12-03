@@ -26,7 +26,7 @@ titles:
 key: page-about
 ---
 
-[![SPADE DEMO](https://raw.githubusercontent.com/tamagusko/spade/main/screenshots/spade_app.png)](https://spade-hackathon.streamlit.app/)
+[![SPADE DEMO](https://raw.githubusercontent.com/tamagusko/spade/main/screenshots/spade_app.png)](https://spade-hackathon.streamlit.app/){:target="_blank"}
 
 SPADE is all about helping cities stay ahead of flooding. We analyze elevation models, road data, and satellite images to figure out where water might flow and which areas are most at risk. This information can then be used to improve urban design and prevent flooding. It's all about using smart data to keep cities safe and dry!
 
