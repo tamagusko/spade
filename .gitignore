@@ -11,6 +11,8 @@
 
 /.vscode/
 
+bkp/
+
 node_modules/
 .sass-cache/
 
